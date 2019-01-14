@@ -1,0 +1,118 @@
+/* line 1, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 5, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+body {
+  background-color: #767a78;
+}
+
+/* line 9, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+#title {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+/* line 15, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* line 22, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #description {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/* line 29, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form {
+  display: block;
+  width: 100%;
+}
+
+/* line 33, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels {
+  display: block;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/* line 38, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .leftTab {
+  text-align: right;
+  border-right: 5px solid white;
+}
+
+/* line 44, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .rightTab {
+  text-align: left;
+  border-left: 5px solid white;
+}
+
+/* line 48, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .rightTab input[type=number] {
+  width: 10em;
+}
+
+/* line 52, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .rightTab input[type=text] {
+  width: 10em;
+}
+
+/* line 56, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .rightTab input[type=email] {
+  width: 10em;
+}
+
+/* line 60, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .rightTab .textarea {
+  width: 10em;
+}
+
+/* line 65, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .leftTab, .form-box #survey-form .labels .rightTab {
+  display: inline-block;
+  width: 45%;
+  vertical-align: -webkit-baseline-middle;
+}
+
+/* line 70, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .leftTab ul, .form-box #survey-form .labels .rightTab ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 75, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box #survey-form .labels .leftTab .textarea, .form-box #survey-form .labels .rightTab .textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+/* line 85, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box .button {
+  text-align: center;
+  height: 40px;
+}
+
+/* line 89, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box .button #submit {
+  height: 30px;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  width: 10em;
+}
+
+/* line 97, C:/Users/Acer/Desktop/freeCodeCamp/Survey form/scss/theme.scss */
+.form-box .button #submit:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=../css/theme.map */
